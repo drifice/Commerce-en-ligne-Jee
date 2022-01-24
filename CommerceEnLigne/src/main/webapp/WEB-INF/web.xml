@@ -24,7 +24,7 @@
 	 
 	 <servlet-mapping>
 	 	<servlet-name>CommandeServlet</servlet-name>
-	 	<url-pattern>/commande</url-pattern>
+	 	<url-pattern>/creationCommande</url-pattern>
 	 </servlet-mapping>
 	
 </web-app>

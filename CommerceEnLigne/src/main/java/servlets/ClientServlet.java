@@ -32,6 +32,7 @@ public class ClientServlet extends HttpServlet{
 		client.setNumeroTel(numeroTel);
 		client.setPrenom(prenom);
 		
-		req.setAttribute("commande", client);
+		req.setAttribute("client", client);
+		req.getRequestDispatcher("/WEB-INF/afficherClient.jsp").forward(req, resp);
 	}
 }
